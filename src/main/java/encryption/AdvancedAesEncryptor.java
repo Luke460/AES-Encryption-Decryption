@@ -17,14 +17,15 @@ public class AdvancedAesEncryptor{
 
 	public static String encrypt(String payload, byte[] key, byte[] initVector) {
 		try {
-			
+
 			IvParameterSpec iv = new IvParameterSpec(initVector);
 			SecretKeySpec skeySpec = new SecretKeySpec(key, "AES");
 			
+			//   Structure:
 			// [ 16 random bytes | 16 bytes representing the payload length | payload | final padding in order to fulfill segment size ]            		
 			byte[] padding = generateRandomSequence(16);
-			byte[] lengthInfo = getStringByInteger(payload.getBytes("UTF-8").length).getBytes();
 			byte[] payloadInBytes = payload.getBytes("UTF-8");
+			byte[] lengthInfo = getStringByInteger(payloadInBytes.length).getBytes();
 			byte[] finalPadding = generateRandomSequence(SEGMENT_SIZE-(payloadInBytes.length%SEGMENT_SIZE));
 			
 			ByteArrayOutputStream outputStream = new ByteArrayOutputStream( );

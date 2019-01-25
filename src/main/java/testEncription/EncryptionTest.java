@@ -18,7 +18,6 @@ import static org.junit.Assert.assertEquals;
 public class EncryptionTest {
 
 	final static String TOKEN = "N4040NC04NDM4N947CM1847C984N7NM2V5656VC73465B4534N5436DC3M34M87R9349X4YRM9XR43M8MGXG348R743GRG43R438XG38T";
-
 	
 	@Test
 	public void testAdvancedAesEncryptor() throws Exception {
