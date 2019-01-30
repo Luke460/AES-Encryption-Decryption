@@ -1,16 +1,15 @@
 package testEncription;
 
 import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.Arrays;
 import com.google.common.hash.Hashing;
 import org.apache.commons.codec.binary.Hex;
 import org.junit.Test;
-
-import LukePack.LP;
 import encryption.AdvancedAesEncryptor;
 import encryption.SpringEncryptor;
 import encryption.EncryptionUtils;
-
 import static encryption.AdvancedAesEncryptor.IV_BYTE_LENGTH;
 import static encryption.AdvancedAesEncryptor.KEY_BYTE_LENGTH;
 import static org.junit.Assert.assertEquals;
@@ -22,7 +21,7 @@ public class EncryptionTest {
 	@Test
 	public void testAdvancedAesEncryptor() throws Exception {
 
-		String payload = LP.readFile("payload.txt");
+		String payload = new String(Files.readAllBytes(Paths.get("payload.txt")));
 		//System.out.println("Original message:   " + payload);
 		
 		long t0 = System.currentTimeMillis();		
@@ -47,27 +46,26 @@ public class EncryptionTest {
 		long tf = System.currentTimeMillis();
 		
 		long totalTime = tf - t0;
-		EncryptionUtils.showStats("Advanced Encryption", payload, encryptedString, totalTime);
+		EncryptionUtils.showStats("AdvancedEncryption", payload, encryptedString, totalTime);
 	}
-	/*
+	
 
 	@Test
 	public void testSpringEncryption() throws Exception {
-		String payload = LP.readFile("payload.txt");
+		String payload = new String(Files.readAllBytes(Paths.get("payload.txt")));
 		//System.out.println("Original message:   " + payload);
-		
 		long t0 = System.currentTimeMillis();		
 		System.out.println(new String("Token:              " + TOKEN));
-		String encryptedString = EncryptionUtility.encrypt(payload,TOKEN);
+		String encryptedString = SpringEncryptor.encrypt(payload,TOKEN);
 		//System.out.println("Encrypted msg b64:  " + encryptedString);
-		String decryptedString = EncryptionUtility.decrypt(encryptedString,TOKEN);
+		String decryptedString = SpringEncryptor.decrypt(encryptedString,TOKEN);
 		//System.out.println("Decrypted message:  " + decryptedString);
 		assertEquals(payload,decryptedString);
 		
 		long tf = System.currentTimeMillis();
 
 		long totalTime = tf - t0;
-		EncryptionUtils.showStats("Spring Encryption", payload, encryptedString, totalTime);
+		EncryptionUtils.showStats("SpringEncryption", payload, encryptedString, totalTime);
 	}
-*/
+
 }

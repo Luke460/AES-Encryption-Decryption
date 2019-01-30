@@ -1,2 +1,231 @@
 ciao sono una stringa piccola.
 ciao sono una monnezza: !"£!"$!&%/&((/))/(%/*éç°Pç§Pç°POò+.
+
+E io sono un Jeson grosso!
+[
+  {
+    "_id": "5c518c650edae98dd55d9b76",
+    "index": 0,
+    "guid": "2029ffe7-7e58-47ab-ac90-69d89e9a49ba",
+    "isActive": false,
+    "balance": "$1,443.35",
+    "picture": "http://placehold.it/32x32",
+    "age": 39,
+    "eyeColor": "green",
+    "name": "Annabelle Lyons",
+    "gender": "female",
+    "company": "MOLTONIC",
+    "email": "annabellelyons@moltonic.com",
+    "phone": "+1 (860) 459-3400",
+    "address": "463 Dorchester Road, Motley, Virgin Islands, 6055",
+    "about": "Ea elit occaecat est nostrud. Labore ut fugiat irure consequat irure deserunt ipsum officia enim id sint qui nisi amet. Consequat ipsum ex est laboris eiusmod deserunt non nisi cillum id incididunt.\r\n",
+    "registered": "2016-07-13T03:44:24 -02:00",
+    "latitude": 3.332,
+    "longitude": 162.493073,
+    "tags": [
+      "aliquip",
+      "elit",
+      "ipsum",
+      "qui",
+      "amet",
+      "amet",
+      "elit"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Burgess Dale"
+      },
+      {
+        "id": 1,
+        "name": "Erica Sosa"
+      },
+      {
+        "id": 2,
+        "name": "Selma Gilmore"
+      }
+    ],
+    "greeting": "Hello, Annabelle Lyons! You have 1 unread messages.",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "5c518c6515328182b36a4cad",
+    "index": 1,
+    "guid": "76941929-cf2a-4514-bb8d-61ff0d9b0064",
+    "isActive": false,
+    "balance": "$3,475.12",
+    "picture": "http://placehold.it/32x32",
+    "age": 37,
+    "eyeColor": "blue",
+    "name": "Marsh Cunningham",
+    "gender": "male",
+    "company": "MEDESIGN",
+    "email": "marshcunningham@medesign.com",
+    "phone": "+1 (920) 492-2750",
+    "address": "301 Graham Avenue, Bellamy, Arizona, 9220",
+    "about": "Occaecat deserunt quis laboris labore adipisicing ex occaecat et adipisicing sint sunt amet amet incididunt. Commodo incididunt quis et sunt adipisicing. Esse occaecat eu voluptate incididunt laborum aliqua adipisicing consectetur aliqua consequat enim consectetur labore. Amet irure tempor do minim labore consectetur Lorem. Pariatur consectetur cillum elit enim velit ex commodo.\r\n",
+    "registered": "2014-08-29T03:46:15 -02:00",
+    "latitude": 13.062112,
+    "longitude": 123.865847,
+    "tags": [
+      "mollit",
+      "proident",
+      "excepteur",
+      "fugiat",
+      "fugiat",
+      "incididunt",
+      "aliqua"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Lane Kemp"
+      },
+      {
+        "id": 1,
+        "name": "Reeves Ayers"
+      },
+      {
+        "id": 2,
+        "name": "Fanny Dawson"
+      }
+    ],
+    "greeting": "Hello, Marsh Cunningham! You have 7 unread messages.",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "5c518c6514ad63c5d19c6753",
+    "index": 2,
+    "guid": "0e88fadc-0500-4ff5-bcc8-0da0362a3002",
+    "isActive": true,
+    "balance": "$2,842.83",
+    "picture": "http://placehold.it/32x32",
+    "age": 39,
+    "eyeColor": "green",
+    "name": "Robbins Norman",
+    "gender": "male",
+    "company": "SILODYNE",
+    "email": "robbinsnorman@silodyne.com",
+    "phone": "+1 (929) 438-2345",
+    "address": "509 Cortelyou Road, Saranap, Federated States Of Micronesia, 2151",
+    "about": "Anim deserunt occaecat ad nostrud ex. Anim fugiat et irure voluptate. Labore commodo voluptate eiusmod commodo aliquip elit excepteur aute.\r\n",
+    "registered": "2017-03-13T10:22:10 -01:00",
+    "latitude": 52.669089,
+    "longitude": 118.280171,
+    "tags": [
+      "eiusmod",
+      "deserunt",
+      "deserunt",
+      "minim",
+      "dolor",
+      "aliqua",
+      "in"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Alana Albert"
+      },
+      {
+        "id": 1,
+        "name": "Katie Casey"
+      },
+      {
+        "id": 2,
+        "name": "Clemons Watkins"
+      }
+    ],
+    "greeting": "Hello, Robbins Norman! You have 2 unread messages.",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "5c518c65f16559c852e0e122",
+    "index": 3,
+    "guid": "ac2f8635-c1cc-4817-9e1e-a3142368cd05",
+    "isActive": false,
+    "balance": "$2,893.78",
+    "picture": "http://placehold.it/32x32",
+    "age": 34,
+    "eyeColor": "blue",
+    "name": "Kate Gentry",
+    "gender": "female",
+    "company": "APPLIDECK",
+    "email": "kategentry@applideck.com",
+    "phone": "+1 (953) 570-3234",
+    "address": "864 Pioneer Street, Farmington, Northern Mariana Islands, 8921",
+    "about": "Minim enim dolore nisi ea irure occaecat aliqua enim labore. Voluptate aute sint nisi pariatur minim mollit eiusmod id magna ullamco minim commodo irure. Nulla veniam est ea officia minim enim ut cillum aliqua. Do cillum dolor nisi do anim exercitation tempor quis mollit veniam.\r\n",
+    "registered": "2014-05-14T06:02:22 -02:00",
+    "latitude": -6.670856,
+    "longitude": -54.388666,
+    "tags": [
+      "est",
+      "officia",
+      "aute",
+      "cillum",
+      "eiusmod",
+      "eu",
+      "reprehenderit"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Robin Sykes"
+      },
+      {
+        "id": 1,
+        "name": "Guzman Lancaster"
+      },
+      {
+        "id": 2,
+        "name": "Barlow Head"
+      }
+    ],
+    "greeting": "Hello, Kate Gentry! You have 3 unread messages.",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "5c518c650959a0c4ecc43776",
+    "index": 4,
+    "guid": "936fbaf6-814d-4c2e-9cab-39b26313df72",
+    "isActive": true,
+    "balance": "$2,090.21",
+    "picture": "http://placehold.it/32x32",
+    "age": 28,
+    "eyeColor": "blue",
+    "name": "Carey Farrell",
+    "gender": "male",
+    "company": "CONFRENZY",
+    "email": "careyfarrell@confrenzy.com",
+    "phone": "+1 (984) 435-3865",
+    "address": "980 Mill Road, Germanton, West Virginia, 2567",
+    "about": "Deserunt laborum dolor enim deserunt non adipisicing sit est aliqua dolor irure aliquip. Ipsum officia ut nisi qui nostrud. Anim cupidatat duis esse pariatur dolore reprehenderit cupidatat cillum proident fugiat non officia aute. Dolor sunt amet do eiusmod sit non sint pariatur amet. Ut Lorem aute consectetur commodo duis nostrud est consequat incididunt quis sunt aliquip occaecat.\r\n",
+    "registered": "2014-11-18T06:03:00 -01:00",
+    "latitude": 30.480522,
+    "longitude": -50.63934,
+    "tags": [
+      "consectetur",
+      "labore",
+      "laboris",
+      "sunt",
+      "dolor",
+      "sit",
+      "consectetur"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Foley Cannon"
+      },
+      {
+        "id": 1,
+        "name": "Glenna Berger"
+      },
+      {
+        "id": 2,
+        "name": "James Singleton"
+      }
+    ],
+    "greeting": "Hello, Carey Farrell! You have 5 unread messages.",
+    "favoriteFruit": "strawberry"
+  }
+]
